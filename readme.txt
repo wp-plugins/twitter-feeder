@@ -1,9 +1,9 @@
 === Twitter Feeder ===
-Contributors: Greg Platty
+Contributors: Podz
 Tags: twitter,twitter account,twitter feed,twitter grabber,twitter plugin,twitter sidebar
 Requires at least: 3.0.1
 Tested up to: 3.3.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Twitter Feeder allows you to add your twitter account to your sidebar of your blog, showing tweets to your visitors.
 == Description ==
@@ -52,7 +52,7 @@ Installs just like all of your other widgets and plugins through the administrat
 
 = Sometimes my feeds stop working =
 
-*Often times twitter is updating their system, and the feeds will dispaer from time to time. If there do not return after several hours then you can contact us and we will look into the problem.
+*Often times twitter is updating their system, and the feeds will disappear from time to time. If there do not return after several hours then you can contact us and we will look into the problem.
 
 = I have changed twitter usernames, but its still showing my old account feeds =
 

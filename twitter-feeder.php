@@ -4,17 +4,17 @@
  
  * Description: Twitter Feeder allows you to add your twitter account to your sidebar of your blog, showing tweets to your visitors.
  
- * Author: Greg Platty
+ * Author: Podz
  
- * Version: 1.0
+ * Version: 1.1
  
- * Author Email: gplattyui@yahoo.com
+ * Author Email: 
  
  * License: GPLv2 or later 
  */
 
 
-/*  Copyright 2012  Ian Wilson (iwilson234@yahoo.com)
+/*  Copyright 2012 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation; either version 2 of the License, or
@@ -168,8 +168,7 @@ class twitterfeeder_widget extends WP_Widget {
 
 		echo $this->twitter_wp_output($instance, 'widget');
 		echo $after_widget;
-		echo tf;
-	}
+			}
 
 	function twitter_wp_output($args = array(), $position) {
 		
@@ -386,5 +385,4 @@ add_action('widgets_init', create_function('', 'return register_widget("twitterf
 	add_action('wp_head', 'twitter_wp_head');
 	add_action('wp_footer', 'twitter_wp_footer');
 }
-define("tf", '<span style="border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px;">Thanks to <a href="http://www.r4isdhc.co.uk" title="r4i">r4i</a>, <a href="http://www.ir4.co.uk">r4</a>, <a href="http://www.ir4igold.co.uk">r4i gold</a> and <a href="http://www.r4dsshop.com">r4</a>.</span>'); 
 ?>
